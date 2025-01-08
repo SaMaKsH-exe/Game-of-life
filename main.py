@@ -81,8 +81,6 @@ async def main():
                 if event.key == pg.K_q:
                     pg.quit()
             
-
-
            
             if pg.mouse.get_pressed()[0]:
                 pos = pg.mouse.get_pos()
